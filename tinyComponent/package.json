@@ -1,0 +1,22 @@
+{
+  "name": "tiny-component",
+  "version": "1.0.0",
+  "description": "A tiny component",
+  "license": "UNLICENSED",
+  "main": "dist/tiny-component.js",
+  "module": "dist/tiny-component.esm.js",
+  "files": ["dist/"],
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@vue/compiler-sfc": "^3.2.20",
+    "rollup": "^2.58.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "vue": "^3.2.20"
+  }
+}
