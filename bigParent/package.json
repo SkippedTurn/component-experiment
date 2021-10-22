@@ -1,0 +1,22 @@
+{
+  "name": "big-parent",
+  "version": "1.0.0",
+  "description": "The parent that will use the tinyComponent",
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "webpack serve"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@vue/compiler-sfc": "^3.2.20",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.4.0",
+    "tiny-component": "file:../tinyComponent",
+    "vue": "^3.2.20",
+    "vue-loader": "^16.8.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
