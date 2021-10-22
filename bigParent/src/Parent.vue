@@ -1,7 +1,11 @@
 <template>
 	<div>
 		<h1>This is the TinyComponent:</h1>
-		<TinyComponent />
+		<TinyComponent>
+			<template #extraText>
+				<span>Here is some extra text</span>
+			</template>
+		</TinyComponent>
 		<hr>
 	</div>
 </template>
@@ -10,12 +14,6 @@
 	import { TinyComponent } from "tiny-component";
 	
 	export default {
-	components: { TinyComponent },
-		props: {
-			
-		},
-		setup(props, { emit }) {
-			
-		}
+		components: { TinyComponent },
 	};
 </script>
