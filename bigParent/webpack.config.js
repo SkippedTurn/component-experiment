@@ -14,7 +14,10 @@ module.exports = {
 		path: path.resolve(__dirname, "dist")
 	},
 	resolve: {
-		extensions: [".js", ".vue", ".json"]
+		extensions: [".js", ".vue", ".json"],
+		alias: {
+			'vue$': path.resolve(__dirname, "node_modules/vue")
+		}
 	},
 	module: {
 		rules: [
